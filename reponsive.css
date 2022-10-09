@@ -1,0 +1,26 @@
+/*Khái niệm viewPort
+    Viewport là tầm nhìn của nhìn thấy được nội dung trong 1 trang web,
+    Nội dung ta thấy trên PC,TabLeft,Android,IOS đều khác nhau
+*/
+/*Beakpoints là những điểm vị trị trên web chủa chúng ta thay đổi*/
+
+.red {
+  color: red;
+}
+.blu {
+  color: blue;
+}
+h1 {
+  font-size: 50px;
+}
+@media only screen and (min-width: 500px) {
+  .blu {
+    color: black;
+  }
+  .red {
+    color: #ccc;
+  }
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+}

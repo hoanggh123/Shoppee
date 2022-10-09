@@ -1,104 +1,104 @@
-// //P1: Gioi thieu
-//     //B1: Lời khuyên trước khóa học
-//     //B2: Cài đặt môi trường
-// //P2: Biến,coments,bult-in
-//     //B3: Sử dụng JavaScript với HTML
-//     //B4: Làm quen với màn thử thách
-//     //B5: Thử thách đầu tiên
-//         alert("Hello world")
-//     //B6: Lưu ý khi học lập trình tại F8
-//     //B7: Khái niệm biến và cách sử dụng biến
-//     //B8: Thực hành sử dụng biến 
-//         var weght = 11;
-//         alert("Can nặng của tui là"+ weght)
-//     //B9: Cú pháp comments
-//     //B10: Ví dụ sử dụng thuật ngữ cmt
-//     //B11: Thuật ngữ Built-in
-//         /*Một số hàm cơ bản
-//             1.Alert
-//             2.Confirm
-//             3.Prompt
-//             4.Set timeout
-//             5.Set interval
-//         */
-//     //B12: Thực hành sử dụng console log
-//         //1.Alert
-//             var fullname = 'Do Huy Hoang'; 
-//             alert("hi"+" " + fullname);
-//             console.log(fullname);
-//         //2.Confirm
-//             confirm("hi"+" " + fullname);
-//         //3.Prompt
-//             prompt(fullname+" " +"Bao nhiêu tuổi");
-//         //4.setTimeout
-//             setTimeout(function() {
-//                 alert("hi"+" " + fullname);
-//             }, 2000)
-//             console.log(setTimeout);
-//         //5.Set Interval
-//             setInterval (function() {
-//             alert("hi"+" " + fullname);
-//                 console.log(setInterval);
-//             }, 1000);
-// //P3: Toán tử kiểu dữ liệu
-//     //B14: Làm quen với toán tử
-//         /*Giới thiệu về toán tử trong javascript
-//             1: Toán tử số học-Arithmetic
-//             2: Toán tử gán-asignment
-//             3: Toán tử so sánh-Comparison
-//             4: Toán tử logical
-//         */
-//     //B15: Toán tử số học
-//         //1: Cộng +
-//             var a = 1
-//             var b = 2
-//             var tong = a + b;
-//             console.log(tong);
-//         //2: Trừ -
-//             var a = 1
-//             var b = 2
-//             var hieu = a - b;
-//             console.log(hieu);
-//         //3: Nhân *
-//             var a = 1
-//             var b = 2
-//             var tich = a * b;
-//             console.log(tich);
-//         //4: Lũy thừa
-//             var a = 1
-//             var b = 2
-//             var exponential = a ** b;
-//             console.log(exponential);
-//         //4: Chia /
-//             var a = 1
-//             var b = 2
-//             var thuong = a / b;
-//             console.log(thuong);
-//         //5: Chia lấy số dư
-//             var gt1 = 10
-//             var gt2 = 4
-//             var residual = gt1 % gt2;
-//             console.log(residual);
-//             alert(residual);
-//         //6: Tăng 1 giá trị 
-//             var gt3= 5;
-//             gt3++;
-//             var gt4 = 6;
-//             gt4++;
-//             var up = gt3;
-//             alert("Số cần tìm là" + up);
+//P1: Gioi thieu
+    //B1: Lời khuyên trước khóa học
+    //B2: Cài đặt môi trường
+//P2: Biến,coments,bult-in
+    //B3: Sử dụng JavaScript với HTML
+    //B4: Làm quen với màn thử thách
+    //B5: Thử thách đầu tiên
+        alert("Hello world")
+    //B6: Lưu ý khi học lập trình tại F8
+    //B7: Khái niệm biến và cách sử dụng biến
+    //B8: Thực hành sử dụng biến 
+        var weght = 11;
+        alert("Can nặng của tui là"+ weght)
+    //B9: Cú pháp comments
+    //B10: Ví dụ sử dụng thuật ngữ cmt
+    //B11: Thuật ngữ Built-in
+        /*Một số hàm cơ bản
+            1.Alert
+            2.Confirm
+            3.Prompt
+            4.Set timeout
+            5.Set interval
+        */
+    //B12: Thực hành sử dụng console log
+        //1.Alert
+        //     var fullname = 'Do Huy Hoang'; 
+        //     alert("hi"+" " + fullname);
+        //     console.log(fullname);
+        // //2.Confirm
+        //     confirm("hi"+" " + fullname);
+        // //3.Prompt
+        //     prompt(fullname+" " +"Bao nhiêu tuổi");
+        // //4.setTimeout
+        //     setTimeout(function() {
+        //         alert("hi"+" " + fullname);
+        //     }, 2000)
+        //     console.log(setTimeout);
+        // //5.Set Interval
+        //     setInterval (function() {
+        //     alert("hi"+" " + fullname);
+        //         console.log(setInterval);
+        //     }, 1000);
+//P3: Toán tử kiểu dữ liệu
+    //B14: Làm quen với toán tử
+        /*Giới thiệu về toán tử trong javascript
+            1: Toán tử số học-Arithmetic
+            2: Toán tử gán-asignment
+            3: Toán tử so sánh-Comparison
+            4: Toán tử logical
+        */
+    //B15: Toán tử số học
+        //1: Cộng +
+            var a = 1
+            var b = 2
+            var tong = a + b;
+            console.log(tong);
+        //2: Trừ -
+            var a = 1
+            var b = 2
+            var hieu = a - b;
+            console.log(hieu);
+        //3: Nhân *
+            var a = 1
+            var b = 2
+            var tich = a * b;
+            console.log(tich);
+        //4: Lũy thừa
+            var a = 1
+            var b = 2
+            var exponential = a ** b;
+            console.log(exponential);
+        //4: Chia /
+            var a = 1
+            var b = 2
+            var thuong = a / b;
+            console.log(thuong);
+        //5: Chia lấy số dư
+            var gt1 = 10
+            var gt2 = 4
+            var residual = gt1 % gt2;
+            console.log(residual);
+            alert(residual);
+        //6: Tăng 1 giá trị 
+            var gt3= 5;
+            gt3++;
+            var gt4 = 6;
+            gt4++;
+            var up = gt3;
+            alert("Số cần tìm là" + up);
 			
-//             console.log(up);
-//         //7: giảm 1 giá trị
-//             var gt5 = 7;
-//             gt5--;
-//             var down  = gt5;
-//             alert("Số cần tìm là " + down);
-//             console.log(down);
-// 	//B16: Thực hành toán tử số học
-//             var gt7 = 6;
-//             gt6--;
-//             var down  = gt6;
+            console.log(up);
+        //7: giảm 1 giá trị
+            var gt5 = 7;
+            gt5--;
+            var down  = gt5;
+            alert("Số cần tìm là " + down);
+            console.log(down);
+	//B16: Thực hành toán tử số học
+            var gt7 = 6;
+            gt6--;
+            var down  = gt6;
     //B17: Toán tử gán
         //1: Toán tử =
             var a = 1;
@@ -122,9 +122,12 @@
             console.log(d);
         //6: Toán tử **=
             e = 10;
-            e = e ** 3;
-            console.log(e);
-        
+            square = e ** 3;
+            console.log(square);
+        //7: Toán tử %=
+            DIVIDE = 26
+            RESIDUAL = DIVIDE % 6
+    //19:Toán tử ++ -- 
 
         
 
